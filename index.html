@@ -11,11 +11,23 @@
 
         /* Header */
         header {
-            background:rgb(8, 168, 152);
-            color:white;
-            padding: 25px;
-            text-align: center;
-        }
+    background-color: #0fa3a1;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    position: center;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;   
+    border: 3px solid white;
+    object-fit: cover;
+}
 
         /* Navigation */
         nav {
@@ -49,7 +61,7 @@
             background-color: white;
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px black;
             animation: slideUp 0.8s ease;
         }
 
@@ -58,22 +70,23 @@
             font-size: 32px;
             letter-spacing: 2px;
             margin-bottom: 20px;
+            
         }
 
         .content h3 {
-            color: #032e34;
-            border-left: 5px solid #002932;
+            color: #262728;
+            border-left: 5px solid #171616;
             padding-left: 10px;
             margin-top: 25px;
         }
 
         .content p {
             line-height: 1.7;
-            color: #333;
+            color: #070707;
         }
 
         .content ul li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
 
         /* Sidebar */
@@ -82,7 +95,7 @@
             background-color: #ebb3b3;
             padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px black;
         }
 
         .sidebar h3 {
@@ -109,10 +122,11 @@
 <header>
     <h1>MY PORTFOLIO</h1>
     <p>Student Project Base Layout</p>
+    <img src="MINE.jpeg" alt="My Photo" class="profile-pic">
 </header>
 
 <nav>
-    <a href="PORTFOLIO.html">Home</a>
+    <a href="index.html">Home</a>
     <a href="About.html">About</a>
     <a href="Services.html">Services</a>
     <a href="Contact.html">Contact</a>
